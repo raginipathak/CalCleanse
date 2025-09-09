@@ -14,7 +14,7 @@ Features:
   - Body Temperature
 - Interactive and user-friendly interface
 
-Screenshots: <img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/4766aff3-f3a9-41df-b5c4-3615c0472d39" />
+<img width="1919" height="967" alt="image" src="https://github.com/user-attachments/assets/4766aff3-f3a9-41df-b5c4-3615c0472d39" />
 <img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/87e0aafd-8a92-4dd7-9124-12bf20c02c80" />
 
 Tech Stack:
