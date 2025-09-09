@@ -5,7 +5,7 @@ import numpy as np
 # Load model
 model = pickle.load(open("model.pkl", "rb"))
 
-st.title("CalCleanse – Track the Burn")
+st.title("CalCleanse – Track the Burn🔥")
 
 # Input fields
 gender = st.selectbox("Gender", ["Male", "Female"])
