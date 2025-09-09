@@ -5,7 +5,7 @@ import numpy as np
 # Load model
 model = pickle.load(open("model.pkl", "rb"))
 
-st.title("🔥 CalCleanse – Track the Burn, Transform You")
+st.title("CalCleanse – Track the Burn")
 
 # Input fields
 gender = st.selectbox("Gender", ["Male", "Female"])
@@ -20,4 +20,4 @@ if st.button("Predict"):
     gender_val = 0 if gender == "Male" else 1
     input_data = np.array([[gender_val, age, height, weight, duration, heart_rate, body_temp]])
     result = model.predict(input_data)
-    st.success(f"✅ Estimated Calories Burnt: {result[0]:.2f}")
+    st.success(f"✅ Estimated Calories Burnt: {result[0]:.2f} kcal")
